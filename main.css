@@ -1,0 +1,83 @@
+body {
+    margin: 50px 50px 0 50px;
+    font-size: 12px;
+}
+
+#logo {
+    width: 250px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+h1 {
+    float: right;
+    font-size: 30px;
+}
+
+#terms {
+    position: absolute;
+    top: 140px;
+    left: 50px;
+}
+
+#receiver {
+    position: absolute;
+    top: 140px;
+    left: 380px;
+}
+
+table {
+    width: 100%;
+}
+
+#rows {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    width: 600px;
+}
+
+#summary {
+    width: 200px;
+    position: absolute;
+    top: 700px;
+    left: 450px;
+}
+
+th {
+    border-bottom: solid 1px #aaa;
+}
+
+th, td {
+    padding: 2px 4px;
+    text-align: left;
+}
+
+#rows th, #rows td {
+    width: 20%;
+}
+
+#rows th:first-child, #rows td:first-child {
+    width: 40%;
+}
+
+td {
+    padding-bottom: 6px;
+}
+
+td.number, th.number {
+    text-align: right;
+}
+
+footer {
+    position: absolute;
+    top: 900px;
+    left: 50px;
+}
+
+footer div {
+    float: left;
+    width: 210px;
+    font-size: 11px;
+}
